@@ -1,5 +1,5 @@
 import { createContext, useState, useEffect } from "react"
-import { createLocalStorage, getAllLocalStorage } from "../services/Storage"
+import { getAllLocalStorage } from "../services/Storage"
 
 interface IAppContext {
     user: string,
@@ -21,7 +21,7 @@ export const AppContextProvider = ({ children }: any) => {
       const { login } = JSON.parse(storage)
       setIsLoggedIn(login)
     }  
-  },[])
+  },[storage])
   
   const [title, setTitle] = useState<string>('')
   const user = 'Jon'
