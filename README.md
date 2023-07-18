@@ -1,3 +1,3 @@
 # Desafio DioBank TypeScript
 
-Link do projeto no [Netlifye ](https://master--cavjon-diobank.netlify.app).
+Link do projeto no [Netlify ](https://master--cavjon-diobank.netlify.app).
