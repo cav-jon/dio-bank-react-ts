@@ -21,7 +21,7 @@ export const AppContextProvider = ({ children }: any) => {
       setIsLoggedIn(login)
       createLocalStorage()
     }  
-  },[])
+  })
   
   const [title, setTitle] = useState<string>('')
   const user = 'Jon'
