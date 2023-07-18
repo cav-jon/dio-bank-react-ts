@@ -21,7 +21,7 @@ export const AppContextProvider = ({ children }: any) => {
       const { login } = JSON.parse(storage)
       setIsLoggedIn(login)
     }  
-  }, [])
+  },[])
   
   const [title, setTitle] = useState<string>('')
   const user = 'Jon'
